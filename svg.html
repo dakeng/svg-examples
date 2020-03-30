@@ -2,43 +2,45 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Canvas</title>
+    <title>番茄钟</title>
   </head>
   <body>
-    <svg width="500" height="500">
-        <circle cx="250" cy="250" r="250" fill="#e85038" fill-opacity="0.4"></circle>
-        <circle cx="250" cy="250" r="220" fill="#e85038"></circle>
-        <text
-            x="250" y="250"
-            fill="#f6f7eb"
-            font-size="80"
-            font-family="Microsoft YaHei"
-            text-anchor="middle"
-            textLength="240"
-            dominant-baseline="central">
-            25:00
-        </text>
-        <symbol id="dot">
-            <ellipse
-                cx="4" cy="16"
-                rx="4" ry="16"
-                fill="#FEC86C"
-                opacity="0.2">
-            </ellipse>
-        </symbol>
-        <use xlink:href="#dot" x="246" y="50"/>
-        <use xlink:href="#dot" x="246" y="50" transform="rotate(30, 250, 250)"/>
-        <use xlink:href="#dot" x="246" y="50" transform="rotate(60, 250, 250)"/>
-        <use xlink:href="#dot" x="246" y="50" transform="rotate(90, 250, 250)"/>
-        <use xlink:href="#dot" x="246" y="50" transform="rotate(120, 250, 250)"/>
-        <use xlink:href="#dot" x="246" y="50" transform="rotate(150, 250, 250)"/>
-        <use xlink:href="#dot" x="246" y="50" transform="rotate(180, 250, 250)"/>
-        <use xlink:href="#dot" x="246" y="50" transform="rotate(210, 250, 250)"/>
-        <use xlink:href="#dot" x="246" y="50" transform="rotate(240, 250, 250)"/>
-        <use xlink:href="#dot" x="246" y="50" transform="rotate(270, 250, 250)"/>
-        <use xlink:href="#dot" x="246" y="50" transform="rotate(300, 250, 250)"/>
-        <use xlink:href="#dot" x="246" y="50" transform="rotate(330, 250, 250)"/>
-        <use xlink:href="#dot" x="246" y="50" transform="rotate(360, 250, 250)"/>
-    </svg>
+    <div style="text-align: center;">
+      <svg width="500" height="500">
+          <circle cx="250" cy="250" r="250" fill="#e85038" fill-opacity="0.4"></circle>
+          <circle cx="250" cy="250" r="220" fill="#e85038"></circle>
+          <text
+              x="250" y="250"
+              fill="#f6f7eb"
+              font-size="80"
+              font-family="Microsoft YaHei"
+              text-anchor="middle"
+              textLength="240"
+              dominant-baseline="central">
+              25:00
+          </text>
+          <symbol id="dot">
+              <ellipse
+                  cx="4" cy="16"
+                  rx="4" ry="16"
+                  fill="#FEC86C"
+                  opacity="0.2">
+              </ellipse>
+          </symbol>
+          <use xlink:href="#dot" x="246" y="50"/>
+          <use xlink:href="#dot" x="246" y="50" transform="rotate(30, 250, 250)"/>
+          <use xlink:href="#dot" x="246" y="50" transform="rotate(60, 250, 250)"/>
+          <use xlink:href="#dot" x="246" y="50" transform="rotate(90, 250, 250)"/>
+          <use xlink:href="#dot" x="246" y="50" transform="rotate(120, 250, 250)"/>
+          <use xlink:href="#dot" x="246" y="50" transform="rotate(150, 250, 250)"/>
+          <use xlink:href="#dot" x="246" y="50" transform="rotate(180, 250, 250)"/>
+          <use xlink:href="#dot" x="246" y="50" transform="rotate(210, 250, 250)"/>
+          <use xlink:href="#dot" x="246" y="50" transform="rotate(240, 250, 250)"/>
+          <use xlink:href="#dot" x="246" y="50" transform="rotate(270, 250, 250)"/>
+          <use xlink:href="#dot" x="246" y="50" transform="rotate(300, 250, 250)"/>
+          <use xlink:href="#dot" x="246" y="50" transform="rotate(330, 250, 250)"/>
+          <use xlink:href="#dot" x="246" y="50" transform="rotate(360, 250, 250)"/>
+      </svg>
+    </div>
   </body>
 </html>
